@@ -1,0 +1,15 @@
+Full Scale Graph with Extremities Removed:
+    In the data possessed by the larger graph, many interesting trends could be observed.
+The primary trend of interest, is that the graph contained sections of optimization in
+terms of their recursion limit where larger arrays did not neccesarily result in larger run times.
+As the array sizes got larger however there was more fluctuation in the run time. This can be attributed
+to the nature of quicksort and the way that a pivot is selected in larger arrays. Furthermore, in various
+parts of the graphs, there were large spikes that at times interfered with the data. This can be attributed to
+external noise from the machine causing irregularities within the data.
+
+Zoomed in Graph with Filtered Data:
+    For my optimal recursion region I decided to zoom in on a region that showed a very flat linear section.
+In this range, the run times for the arrays even as they grew in size remained fairly constant. However, even
+with this very honed in range, there were still some variations and spikes within the data which can be attributed
+to and accounted for by external noise. This caused minor inconsistencies in the derivatives and trends of the lines
+within my selected region.
